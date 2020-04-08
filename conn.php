@@ -1,4 +1,5 @@
 <?php
+//memberi catatan
 $connect = new mysqli("localhost", "root", "root", "tokoku");
 if ($connect) {
     echo "Koneksi sukses";
